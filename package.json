@@ -1,0 +1,21 @@
+{
+    "name": "dark-fabric",
+    "displayName": "Dark Fabric",
+    "description": "A dark theme color for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Fabric",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Fabric-color-theme.json"
+            }
+        ]
+    }
+}
