@@ -38,7 +38,7 @@
 		"dropdown.background": "#232530",
 		"dropdown.listBackground": "#2E303E",
 		"input.background": "#2E303E",
-		"inputOption.activeBorder": "#E9436D80",
+		"inputOption.activeBorder": "#ff004080",
 		"inputValidation.errorBackground": "#F43E5C80",
 		"inputValidation.errorBorder": "#F43E5C00",
 		"scrollbar.shadow": "#16161C",
@@ -125,7 +125,7 @@
 		"panelTitle.activeBorder": "#E95378",
 		"statusBar.background": "#1C1E26",
 		"statusBar.foreground": "#D5D8DA80",
-		"statusBar.debuggingBackground": "#FA317E",
+		"statusBar.debuggingBackground": "#fa317e",
 		"statusBar.debuggingForeground": "#06060C",
 		"statusBar.noFolderBackground": "#1C1E26",
 		"statusBarItem.hoverBackground": "#2E303E",
@@ -236,7 +236,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#C9C9C9"
+				"foreground": "#ffffffd3"
 			}
 		},
 		{
