@@ -125,7 +125,7 @@
 		"panelTitle.activeBorder": "#E95378",
 		"statusBar.background": "#1C1E26",
 		"statusBar.foreground": "#D5D8DA80",
-		"statusBar.debuggingBackground": "#E9436D",
+		"statusBar.debuggingBackground": "#FA317E",
 		"statusBar.debuggingForeground": "#06060C",
 		"statusBar.noFolderBackground": "#1C1E26",
 		"statusBarItem.hoverBackground": "#2E303E",
@@ -171,7 +171,6 @@
 				"keyword.control",
 				"keyword.other",
 				"meta.class.python",
-				"storage.type.function.python",
 				"keyword.control.flow.python",
 				"markup.heading",
 				"storage.modifier.dart",
@@ -179,7 +178,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#40b4c4"
+				"foreground": "#FA317E"
 			}
 		},
 		{
@@ -192,19 +191,31 @@
 			],
 			"settings": 
 			{
-				"foreground": "#EB64B9"
+				"foreground": "#FFB759"
 			}
 		},
 		{
-			"name": "strings",
+			"name": "strings and parameters",
 			"scope": 
 			[
 				"string",
-				"string.other.link.title.markdown"
+				"string.other.link.title.markdown",
+				"variable.parameter"
 			],
 			"settings": 
 			{
-				"foreground": "#b4dce7"
+				"foreground": "#C599EE"
+			}
+		},
+		{
+			"name": "storages, class and def",
+			"scope":
+			[
+				"storage.type.function.python",
+				"storage.type.class.python",
+			],
+			"settings": {
+				"foreground": "#C599EE"
 			}
 		},
 		{
@@ -214,7 +225,18 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#b381c5"
+				"foreground": "#C599EE"
+			}
+		},
+		{
+			"name": "variables",
+			"scope": 
+			[
+				"variable"
+			],
+			"settings": 
+			{
+				"foreground": "#C9C9C9"
 			}
 		},
 		{
@@ -285,7 +307,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#c9c9c9"
+				"foreground": "#C9C9C9"
 			}
 		},
 		{
@@ -304,7 +326,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#74dfc4"
+				"foreground": "#FA317E"
 			}
 		},
 		{
@@ -316,7 +338,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#91889b"
+				"foreground": "#91889B"
 			}
 		},
 		{
@@ -332,7 +354,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#c9c9c9"
+				"foreground": "#C9C9C9"
 			}
 		},
 		{
@@ -354,7 +376,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#40b4c4"
+				"foreground": "#40B4C4"
 			}
 		},
 		{
@@ -364,6 +386,7 @@
 				"variable.language.this",
 				"variable.language.special.self.python",
 				"support.function.builtin.python",
+				"meta.function-call.python",
 				"constant.language",
 				"constant.other.elm",
 				"support.constant.automatic.powershell",
@@ -371,7 +394,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#ffe159"
+				"foreground": "#FFB759"
 			}
 		},
 		{
@@ -383,7 +406,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#74dfc4"
+				"foreground": "#74DFC4"
 			}
 			
 		},
@@ -391,12 +414,11 @@
 			"name": "Types",
 			"scope": 
 			[
-				"storage.type",
 				"support.class.dart"
 			],
 			"settings": 
 			{
-				"foreground": "#a96bc0"
+				"foreground": "#A96BC0"
 			}
 		},
 		{
@@ -416,11 +438,12 @@
 			"scope": 
 			[
 				"string.regexp", 
-				"string.regexp keyword.other"
+				"string.regexp keyword.other",
+				"meta.fstring.python"
 			],
 			"settings": 
 			{
-				"foreground": "#e75f88"
+				"foreground": "#E75F88"
 			}
 		},
 		{
@@ -433,7 +456,7 @@
 			],
 			"settings": 
 			{
-				"foreground": "#e75f88"
+				"foreground": "#E75F88"
 			}
 		},
 		{
@@ -447,12 +470,15 @@
 			"keyword",
 			"punctuation.definintion.string",
 			"punctuation",
-			"storage.type"
+			"meta.fstring.python",
+			"constant.character.format.placeholder.other.python",
+			"storage.type.string.python",
+			"string.interpolated.python",
+			"meta.fstring.python"
 			],
 			"settings": 
 			{
-			"fontStyle": "",
-			"foreground": "#e75f88"
+			"foreground": "#E75F88"
 			}
 		}
 	]
